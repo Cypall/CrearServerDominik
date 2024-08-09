@@ -1,0 +1,64 @@
+﻿Compilación iniciada a las 01/01/2014 10:52:41 p.m..
+     1>Proyecto "D:\Archivo de Programa\Creacion de Ragnarok\3CeAM r731 2012-04-10\3CeAM r731 2012-04-10\Emulador3Ceam\vcproj-10\txt-converter-login.vcxproj" en el nodo 3 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "txt-converter-login\Debug\txt-converter-login.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\3rdparty\mysql\include /I..\3rdparty\msinttypes\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WIN32 /D __WIN32 /D _DEBUG /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D FD_SETSIZE=4096 /D DB_MANUAL_CAST_TO_UNION /D MINICORE /D WITH_TXT /D WITH_SQL /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"txt-converter-login\Debug\\" /Fd"txt-converter-login\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\common\core.c ..\src\common\db.c ..\src\common\ers.c ..\src\common\lock.c ..\src\common\malloc.c ..\src\common\showmsg.c ..\src\common\sql.c ..\src\common\strlib.c ..\src\common\timer.c ..\src\common\utils.c ..\src\login\account_sql.c ..\src\login\account_txt.c "..\src\txt-converter\login-converter.c"
+         login-converter.c
+         account_txt.c
+         account_sql.c
+         utils.c
+         timer.c
+         strlib.c
+         sql.c
+         showmsg.c
+         malloc.c
+         lock.c
+         ers.c
+         db.c
+         core.c
+         Generando código...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"txt-converter-login\Debug\login-converter.exe.embed.manifest.res" txt-converter-login\Debug\login-converter_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\tools\login-converter.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\3rdparty\mysql\lib libcmtd.lib oldnames.lib ws2_32.lib libmysql.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST /ManifestFile:"txt-converter-login\Debug\login-converter.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\tools\login-converter.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\tools\login-converter.lib" /MACHINE:X86 "txt-converter-login\Debug\login-converter.exe.embed.manifest.res"
+         "txt-converter-login\Debug\core.obj"
+         "txt-converter-login\Debug\db.obj"
+         "txt-converter-login\Debug\ers.obj"
+         "txt-converter-login\Debug\lock.obj"
+         "txt-converter-login\Debug\malloc.obj"
+         "txt-converter-login\Debug\showmsg.obj"
+         "txt-converter-login\Debug\sql.obj"
+         "txt-converter-login\Debug\strlib.obj"
+         "txt-converter-login\Debug\timer.obj"
+         "txt-converter-login\Debug\utils.obj"
+         "txt-converter-login\Debug\account_sql.obj"
+         "txt-converter-login\Debug\account_txt.obj"
+         "txt-converter-login\Debug\login-converter.obj"
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"txt-converter-login\Debug\login-converter.exe.embed.manifest" /manifest "txt-converter-login\Debug\login-converter.exe.intermediate.manifest"
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"txt-converter-login\Debug\login-converter.exe.embed.manifest.res" txt-converter-login\Debug\login-converter_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\tools\login-converter.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\3rdparty\mysql\lib libcmtd.lib oldnames.lib ws2_32.lib libmysql.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST /ManifestFile:"txt-converter-login\Debug\login-converter.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\tools\login-converter.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\tools\login-converter.lib" /MACHINE:X86 "txt-converter-login\Debug\login-converter.exe.embed.manifest.res"
+         "txt-converter-login\Debug\core.obj"
+         "txt-converter-login\Debug\db.obj"
+         "txt-converter-login\Debug\ers.obj"
+         "txt-converter-login\Debug\lock.obj"
+         "txt-converter-login\Debug\malloc.obj"
+         "txt-converter-login\Debug\showmsg.obj"
+         "txt-converter-login\Debug\sql.obj"
+         "txt-converter-login\Debug\strlib.obj"
+         "txt-converter-login\Debug\timer.obj"
+         "txt-converter-login\Debug\utils.obj"
+         "txt-converter-login\Debug\account_sql.obj"
+         "txt-converter-login\Debug\account_txt.obj"
+         "txt-converter-login\Debug\login-converter.obj"
+         txt-converter-login.vcxproj -> D:\Archivo de Programa\Creacion de Ragnarok\3CeAM r731 2012-04-10\3CeAM r731 2012-04-10\Emulador3Ceam\vcproj-10\..\tools\login-converter.exe
+       FinalizeBuildStatus:
+         Se eliminará el archivo "txt-converter-login\Debug\txt-converter-login.unsuccessfulbuild".
+         Aplicando tarea Touch a "txt-converter-login\Debug\txt-converter-login.lastbuildstate".
+     1>Compilación del proyecto terminada "D:\Archivo de Programa\Creacion de Ragnarok\3CeAM r731 2012-04-10\3CeAM r731 2012-04-10\Emulador3Ceam\vcproj-10\txt-converter-login.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:05.02

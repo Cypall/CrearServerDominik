@@ -1,0 +1,76 @@
+﻿Compilación iniciada a las 01/01/2014 10:52:41 p.m..
+     1>Proyecto "D:\Archivo de Programa\Creacion de Ragnarok\3CeAM r731 2012-04-10\3CeAM r731 2012-04-10\Emulador3Ceam\vcproj-10\login-server_txt.vcxproj" en el nodo 5 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "login-server_txt\Debug\login-server_txt.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\3rdparty\msinttypes\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WIN32 /D __WIN32 /D _DEBUG /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D FD_SETSIZE=4096 /D DB_MANUAL_CAST_TO_UNION /D WITH_TXT /D _MBCS /Gm /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"login-server_txt\Debug\\" /Fd"login-server_txt\Debug\vc100.pdb" /Gd /TC /wd4100 /wd4800 /analyze- /errorReport:prompt ..\src\login\account_txt.c ..\src\login\ipban_txt.c ..\src\login\login.c ..\src\login\loginlog_txt.c ..\src\common\core.c ..\src\common\db.c ..\src\common\ers.c ..\src\common\lock.c ..\src\common\malloc.c ..\src\common\md5calc.c ..\src\common\nullpo.c ..\src\common\plugins.c ..\src\common\showmsg.c ..\src\common\socket.c ..\src\common\strlib.c ..\src\common\timer.c ..\src\common\utils.c
+         utils.c
+         timer.c
+         strlib.c
+         socket.c
+         showmsg.c
+         plugins.c
+         nullpo.c
+         md5calc.c
+         malloc.c
+         lock.c
+         ers.c
+         db.c
+         core.c
+         loginlog_txt.c
+         login.c
+         ipban_txt.c
+         account_txt.c
+         Generando código...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"login-server_txt\Debug\login-server.exe.embed.manifest.res" login-server_txt\Debug\login-server_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\login-server.exe" /INCREMENTAL /NOLOGO libcmtd.lib oldnames.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST /ManifestFile:"login-server_txt\Debug\login-server.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\login-server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\login-server.lib" /MACHINE:X86 "login-server_txt\Debug\login-server.exe.embed.manifest.res"
+         "login-server_txt\Debug\account_txt.obj"
+         "login-server_txt\Debug\ipban_txt.obj"
+         "login-server_txt\Debug\login.obj"
+         "login-server_txt\Debug\loginlog_txt.obj"
+         "login-server_txt\Debug\core.obj"
+         "login-server_txt\Debug\db.obj"
+         "login-server_txt\Debug\ers.obj"
+         "login-server_txt\Debug\lock.obj"
+         "login-server_txt\Debug\malloc.obj"
+         "login-server_txt\Debug\md5calc.obj"
+         "login-server_txt\Debug\nullpo.obj"
+         "login-server_txt\Debug\plugins.obj"
+         "login-server_txt\Debug\showmsg.obj"
+         "login-server_txt\Debug\socket.obj"
+         "login-server_txt\Debug\strlib.obj"
+         "login-server_txt\Debug\timer.obj"
+         "login-server_txt\Debug\utils.obj"
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"login-server_txt\Debug\login-server.exe.embed.manifest" /manifest "login-server_txt\Debug\login-server.exe.intermediate.manifest"
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"login-server_txt\Debug\login-server.exe.embed.manifest.res" login-server_txt\Debug\login-server_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\login-server.exe" /INCREMENTAL /NOLOGO libcmtd.lib oldnames.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST /ManifestFile:"login-server_txt\Debug\login-server.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\login-server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\login-server.lib" /MACHINE:X86 "login-server_txt\Debug\login-server.exe.embed.manifest.res"
+         "login-server_txt\Debug\account_txt.obj"
+         "login-server_txt\Debug\ipban_txt.obj"
+         "login-server_txt\Debug\login.obj"
+         "login-server_txt\Debug\loginlog_txt.obj"
+         "login-server_txt\Debug\core.obj"
+         "login-server_txt\Debug\db.obj"
+         "login-server_txt\Debug\ers.obj"
+         "login-server_txt\Debug\lock.obj"
+         "login-server_txt\Debug\malloc.obj"
+         "login-server_txt\Debug\md5calc.obj"
+         "login-server_txt\Debug\nullpo.obj"
+         "login-server_txt\Debug\plugins.obj"
+         "login-server_txt\Debug\showmsg.obj"
+         "login-server_txt\Debug\socket.obj"
+         "login-server_txt\Debug\strlib.obj"
+         "login-server_txt\Debug\timer.obj"
+         "login-server_txt\Debug\utils.obj"
+         login-server_txt.vcxproj -> D:\Archivo de Programa\Creacion de Ragnarok\3CeAM r731 2012-04-10\3CeAM r731 2012-04-10\Emulador3Ceam\vcproj-10\..\login-server.exe
+       FinalizeBuildStatus:
+         Se eliminará el archivo "login-server_txt\Debug\login-server_txt.unsuccessfulbuild".
+         Aplicando tarea Touch a "login-server_txt\Debug\login-server_txt.lastbuildstate".
+     1>Compilación del proyecto terminada "D:\Archivo de Programa\Creacion de Ragnarok\3CeAM r731 2012-04-10\3CeAM r731 2012-04-10\Emulador3Ceam\vcproj-10\login-server_txt.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:04.87
